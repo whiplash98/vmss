@@ -23,9 +23,10 @@ variable "application_port" {
 
 variable "admin_user" {
    description = "User name to use as the admin account on the VMs that will be part of the VM scale set"
-   default     = "azureuser"
+   default     = "azure"
 }
 
 variable "admin_password" {
-   description = "Default password for admin account"
+   description = "password"
+   default     = "Azure@12345"
 }
